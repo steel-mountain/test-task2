@@ -1,10 +1,12 @@
-import React from 'react';
+import Header from "./components/header/Header";
+import Pages from "./pages";
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <section className="l:container w-[1200px] mx-auto">
+      <Header />
+      <Pages />
+    </section>
   );
 }
 
